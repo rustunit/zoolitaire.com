@@ -1,5 +1,9 @@
-trunk-version = "0.19.0"
+trunk-version = "0.19.1"
 
 [build]
 target = "index.html"
 dist = "docs"
+
+[watch]
+# Paths to watch. The `build.target`'s parent folder is watched by default.
+watch = ["assets/", "index.html"]
