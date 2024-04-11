@@ -20,6 +20,11 @@
             text-align: center;
         }
 
+        footer {
+            text-align: center;
+            margin-top: 20px;
+        }
+
         .main {
             display: flex;
             flex-direction: column;
@@ -44,6 +49,17 @@
         .apple {
             width: 100%;
         }
+
+        .ru-link {
+            color: rgba(0, 0, 0, 0.3);
+            text-decoration: none;
+        }
+
+        .ru-logo {
+            top: 25px;
+            position: fixed;
+            width: 50px;
+        }
     </style>
 
     <!-- Fathom - beautiful, simple website analytics -->
@@ -52,6 +68,9 @@
 </head>
 
 <body>
+    <header>
+        <a href="https://rustunit.com"><img src="assets/logo.svg" class="ru-logo" /></a>
+    </header>
     <div class="main">
         <img src="assets/name.png" alt="Zoolitaire" class="name">
         <img src="assets/AppIcon.png" alt="Game Banner" class="banner">
@@ -63,7 +82,9 @@
             <img src="assets/Apple-Download.svg" alt="iOS download" class="apple" />
         </a>
     </div>
-
+    <footer>
+        <a href="https://rustunit.com" class="ru-link">Powered by 2024 Rustunit B.V.</a>
+    </footer>
 </body>
 
 </html>
