@@ -1,0 +1,11 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "7B7XTXWNC8.com.rustunit.zoolitaire",
+        "paths": ["*"]
+      }
+    ]
+  }
+}
